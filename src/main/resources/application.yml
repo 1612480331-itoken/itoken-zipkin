@@ -1,4 +1,6 @@
 spring:
+  main:
+    allow-bean-definition-overriding: true   #当遇到同样命名时，是否允许覆盖注册
   cloud:
     config:   #云配置
       uri: http://localhost:8888  #spring cloud config云配置服务端口
